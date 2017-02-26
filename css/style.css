@@ -1,0 +1,91 @@
+/* This is a CSS comment */
+
+body {
+	background: darkgrey;
+	background-image: url(../images/walthamstow-central-parade.jpg);
+	font-family: Helvetica, Arial, sans-serif;
+	tex-de
+}
+
+.main {
+	font-family: 'Raleway', sans-serif;
+	background: rgba(179,182,180,0.6);
+	width: 75%;
+	margin: 80 auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	border-radius: 5px;
+	box-shadow: 0 0 20px 5px white;
+}
+
+h1	{
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 5px 5px 5px grey;
+	text-align: center;
+	background: lightblue;
+	font-size: 90px
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+
+img {
+	/* centering the image */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px grey;
+	padding: 5px;
+	background: darkgrey;
+	border-radius: 5%; 
+	transition: transform 1s;
+}
+img:hover {
+	transform: scale(1.1);
+}
+
+h2	{
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 5px 5px 5px grey;
+	text-align: center;
+	background: lightgrey;
+	font-size: 90px
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	/*background-position: centre;*/
+
+}
+
+
+h3 {
+	margin-bottom: 0;
+	cursor: pointer;
+}
+
+h3 + * {
+	display: none;
+}
+
+
+p,
+ol,
+ul {
+	line-height: 1.7;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {	font-weight: bold;
+	text-decoration: none;
+	}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+	}
+
+
+
